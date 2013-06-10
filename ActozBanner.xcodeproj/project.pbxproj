@@ -1,0 +1,247 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF4764B21765E66200D873E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4764B11765E66200D873E1 /* Foundation.framework */; };
+		AF4764B71765E66200D873E1 /* ActozBanner.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AF4764B61765E66200D873E1 /* ActozBanner.h */; };
+		AF4764B91765E66200D873E1 /* ActozBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4764B81765E66200D873E1 /* ActozBanner.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AF4764AC1765E66200D873E1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				AF4764B71765E66200D873E1 /* ActozBanner.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AF4764AE1765E66200D873E1 /* libActozBanner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libActozBanner.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF4764B11765E66200D873E1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AF4764B51765E66200D873E1 /* ActozBanner-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ActozBanner-Prefix.pch"; sourceTree = "<group>"; };
+		AF4764B61765E66200D873E1 /* ActozBanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActozBanner.h; sourceTree = "<group>"; };
+		AF4764B81765E66200D873E1 /* ActozBanner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActozBanner.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF4764AB1765E66200D873E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4764B21765E66200D873E1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF4764A51765E66200D873E1 = {
+			isa = PBXGroup;
+			children = (
+				AF4764B31765E66200D873E1 /* ActozBanner */,
+				AF4764B01765E66200D873E1 /* Frameworks */,
+				AF4764AF1765E66200D873E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF4764AF1765E66200D873E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF4764AE1765E66200D873E1 /* libActozBanner.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF4764B01765E66200D873E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF4764B11765E66200D873E1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF4764B31765E66200D873E1 /* ActozBanner */ = {
+			isa = PBXGroup;
+			children = (
+				AF4764B61765E66200D873E1 /* ActozBanner.h */,
+				AF4764B81765E66200D873E1 /* ActozBanner.m */,
+				AF4764B41765E66200D873E1 /* Supporting Files */,
+			);
+			path = ActozBanner;
+			sourceTree = "<group>";
+		};
+		AF4764B41765E66200D873E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF4764B51765E66200D873E1 /* ActozBanner-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF4764AD1765E66200D873E1 /* ActozBanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF4764BC1765E66200D873E1 /* Build configuration list for PBXNativeTarget "ActozBanner" */;
+			buildPhases = (
+				AF4764AA1765E66200D873E1 /* Sources */,
+				AF4764AB1765E66200D873E1 /* Frameworks */,
+				AF4764AC1765E66200D873E1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ActozBanner;
+			productName = ActozBanner;
+			productReference = AF4764AE1765E66200D873E1 /* libActozBanner.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF4764A61765E66200D873E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "구정현";
+			};
+			buildConfigurationList = AF4764A91765E66200D873E1 /* Build configuration list for PBXProject "ActozBanner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AF4764A51765E66200D873E1;
+			productRefGroup = AF4764AF1765E66200D873E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF4764AD1765E66200D873E1 /* ActozBanner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF4764AA1765E66200D873E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4764B91765E66200D873E1 /* ActozBanner.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AF4764BA1765E66200D873E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AF4764BB1765E66200D873E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF4764BD1765E66200D873E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ActozBanner.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ActozBanner/ActozBanner-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AF4764BE1765E66200D873E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ActozBanner.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ActozBanner/ActozBanner-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF4764A91765E66200D873E1 /* Build configuration list for PBXProject "ActozBanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF4764BA1765E66200D873E1 /* Debug */,
+				AF4764BB1765E66200D873E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF4764BC1765E66200D873E1 /* Build configuration list for PBXNativeTarget "ActozBanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF4764BD1765E66200D873E1 /* Debug */,
+				AF4764BE1765E66200D873E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF4764A61765E66200D873E1 /* Project object */;
+}
