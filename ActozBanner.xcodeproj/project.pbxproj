@@ -26,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AF0C87861767713000097BF5 /* images.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = images.bundle; path = ../ActozBannerSample/images.bundle; sourceTree = "<group>"; };
+		AF0C878A176771BA00097BF5 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = close.png; path = ../ActozBannerSample/close.png; sourceTree = "<group>"; };
 		AF4764AE1765E66200D873E1 /* libActozBanner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libActozBanner.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF4764B11765E66200D873E1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AF4764B51765E66200D873E1 /* ActozBanner-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ActozBanner-Prefix.pch"; sourceTree = "<group>"; };
@@ -48,6 +50,8 @@
 		AF4764A51765E66200D873E1 = {
 			isa = PBXGroup;
 			children = (
+				AF0C878A176771BA00097BF5 /* close.png */,
+				AF0C87861767713000097BF5 /* images.bundle */,
 				AF4764B31765E66200D873E1 /* ActozBanner */,
 				AF4764B01765E66200D873E1 /* Frameworks */,
 				AF4764AF1765E66200D873E1 /* Products */,
@@ -98,6 +102,7 @@
 				AF4764AA1765E66200D873E1 /* Sources */,
 				AF4764AB1765E66200D873E1 /* Frameworks */,
 				AF4764AC1765E66200D873E1 /* CopyFiles */,
+				AF4764C01765F51900D873E1 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -133,6 +138,22 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AF4764C01765F51900D873E1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "rm -rf /Users/howhansume/Mylib/${PRODUCT_NAME}\nmkdir /Users/howhansume/Mylib/${PRODUCT_NAME}\ncp -R ${BUILT_PRODUCTS_DIR}/include/${PRODUCT_NAME}/ /Users/howhansume/Mylib/${PRODUCT_NAME}\ncp -R ${BUILT_PRODUCTS_DIR}/*.a /Users/howhansume/Mylib/${PRODUCT_NAME}";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AF4764AA1765E66200D873E1 /* Sources */ = {
@@ -240,6 +261,7 @@
 				AF4764BE1765E66200D873E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
